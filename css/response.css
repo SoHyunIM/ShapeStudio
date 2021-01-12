@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+
+@media all and (max-width:1500x){
+
+   
+}
+@media all and (max-width:1230px){
+    #main #section01 .wrap .gap .container .text-wrap {top:22%;left:9%;}
+    #main #section01 .wrap .gap .container .text-wrap ul li div a h3 {font-size:160px;}
+    #main #section01 .wrap .gap .container .text-wrap ul li div a h3:hover {font-size:170px;}
+   
+}
+@media all and (max-width:1024px){
+
+}
+
+@media all and (max-width:990px){
+
+}
+/* @media all and (max-width:990px){
+#main #section02 .wrap .gap .container .right-wrap .s2slide-wrap {display:none;}
+} */
+@media all and (max-width:900px){
+    #header .wrap .gap .left #nav   {display:none}
+    #header .wrap .gap .left .logo i {display:none;}
+    #header .wrap .gap .right #aside {display:none}
+    #header .wrap .gap .right .mobile {display:block;}  
+}
+
+@media all and (max-width:760px){
+    #header .wrap .gap .container > ul > li:nth-child(1) a img {width:149px;height:49px;}
+    #header .wrap .gap .container > ul > li:nth-child(2) ul > li {display:none;}
+
+    #main #section01 .wrap .gap .container .text-wrap ul li div a h3 {font-size:70px;}
+    #main #section01 .wrap .gap .container .text-wrap ul li div a h3:hover {font-size:80px;}
+
+
+    
+}
+
+
+@media all and (max-width:600px){
+
+}
+
+@media all and (max-width:500px){
+    #section0 .loader img  {position:relative;top:28%;left:115px;width:150px;}
+
+    #header .wrap .gap .left {float:left;padding:15px 0;transition:all .3s;}
+    #header.addMobile .wrap .gap .left {padding:20px 0;}
+    #header .wrap .gap .left .logo a img {width:150px;height:45px;}
+    #header.addMobile .wrap .gap .right .mobile {margin:33px 0;}
+}
+
