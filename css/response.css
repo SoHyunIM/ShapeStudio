@@ -6,9 +6,7 @@
    
 }
 @media all and (max-width:1230px){
-    #main #section01 .wrap .gap .container .text-wrap {top:22%;left:9%;}
-    #main #section01 .wrap .gap .container .text-wrap ul li div a h3 {font-size:160px;}
-    #main #section01 .wrap .gap .container .text-wrap ul li div a h3:hover {font-size:170px;}
+
    
 }
 @media all and (max-width:1024px){
@@ -32,15 +30,21 @@
     #header .wrap .gap .container > ul > li:nth-child(1) a img {width:149px;height:49px;}
     #header .wrap .gap .container > ul > li:nth-child(2) ul > li {display:none;}
 
-    #main #section01 .wrap .gap .container .text-wrap ul li div a h3 {font-size:70px;}
-    #main #section01 .wrap .gap .container .text-wrap ul li div a h3:hover {font-size:80px;}
 
-
-    
+    #main #section01 .wrap .gap .container .text-wrap ul li div {width:100%;filter:none;}
 }
 
 
 @media all and (max-width:600px){
+    #main #section01 .wrap .gap .container .text-wrap {top:50%;left:18%;}
+
+    #footer {z-index:3;position:fixed;bottom:0;left:25%;width:60%;height:30%;}
+    #footer .wrap .gap .container > ul > li:nth-child(1) ul {display:block;padding:15px 0;}
+    #footer .wrap .gap .container > ul > li:nth-child(1) ul > li {display:inline-block;margin-right:60px;}
+    #footer .wrap .gap .container > ul > li:nth-child(2) {float:left;padding:15px 0;}
+    #footer .wrap .gap .container > ul > li:nth-child(2) a {display:block;}
+    
+
 
 }
 
@@ -51,5 +55,16 @@
     #header.addMobile .wrap .gap .left {padding:20px 0;}
     #header .wrap .gap .left .logo a img {width:150px;height:45px;}
     #header.addMobile .wrap .gap .right .mobile {margin:33px 0;}
+
+    #footer {z-index:3;position:fixed;bottom:0;left:35%;width:60%;height:20%;}
+    #footer .wrap .gap .container > ul > li:nth-child(1) ul {display:block;padding:15px 0;}
+    #footer .wrap .gap .container > ul > li:nth-child(1) ul > li {display:inline-block;margin-right:20px;}
+    #footer .wrap .gap .container > ul > li:nth-child(1) ul > li span a i {font-size:20px;color:#fff;transform:scale(1);transition:all .3s;}
+    #footer .wrap .gap .container > ul > li:nth-child(2) {float:left;padding:15px 0;}
+    #footer .wrap .gap .container > ul > li:nth-child(2) a {display:block;}
+    #footer .wrap .gap .container > ul > li:nth-child(2) a .text {font-size:18px;}
+}
+@media all and (max-width:400px){
+    #main #section01 .wrap .gap .container .text-wrap {top:40%;left:9%;}
 }
 
